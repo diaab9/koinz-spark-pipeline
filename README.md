@@ -106,7 +106,7 @@ spark-submit \
 /opt/spark/jars/clickhouse-jdbc-0.6.3-shaded.jar \
   --driver-memory 2g \
   --executor-memory 4g \
-  spark/pg_to_clickhouse.py
+  spark/pg_to_clickhouse.py 
 ```
 
 ---
