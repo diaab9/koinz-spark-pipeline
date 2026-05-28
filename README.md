@@ -11,7 +11,7 @@ using an `updated_at` watermark, then appends them to ClickHouse.
 
 ---
 
-## Project Structure
+## Project Structure 
 
 koinz-spark-pipeline/
 ├── README.md
