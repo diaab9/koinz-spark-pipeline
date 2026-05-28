@@ -7,4 +7,4 @@ CREATE TABLE IF NOT EXISTS spark_sync_watermark (
 
 INSERT INTO spark_sync_watermark (table_name, last_updated)
 VALUES ('app_user_visits_fact', 0)
-ON CONFLICT (table_name) DO NOTHING;
+ON CONFLICT (table_name) DO NOTHING; 
