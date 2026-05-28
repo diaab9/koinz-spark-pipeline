@@ -7,7 +7,7 @@ CREATE TABLE IF NOT EXISTS app_user_visits_fact
     points           Nullable(Float64),
     receipt          Nullable(Float64),
     countryCode      Nullable(String),
-    remaining        Nullable(Float64),
+    remaining        Nullable(Float64), 
     customer_id      String,
     branch_id        String,
     store_id         String,
